@@ -8,3 +8,8 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ###Project 1
+\begin{enumerate}
+\\
+\item1
+\it{ text answer here}
+\end{enumerate}
