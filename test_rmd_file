@@ -12,5 +12,16 @@ knitr::opts_chunk$set(echo = TRUE)
 \\
 \item 
 What are the observational variables in your data?
-\it{ text answer here}
+\it{ The observational variables are the individual movies. Quantitative variables include budget, popularity, revenue, runtime, vote average and vote count. Categorical variables include genres, keywords, original language, production company, production country and release date.}
+
+\item
+Summary of data:
+
+```{r setup, eval=TRUE}
+code for summary here
+```
+
+\item A couple of graphs (might be interesting to do PCA/cluster data)
+
+
 \end{enumerate}
