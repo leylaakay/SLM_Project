@@ -1,7 +1,7 @@
 ---
-title: "Homework 2"
-author: "Leyla Akay"
-date: "January 26 2018"
+title: "Project Assignment 1"
+author: "Mary Zhao & Leyla Akay"
+date: "February 4 2018"
 output: pdf_document
 ---
 ```{r setup, include=FALSE}
