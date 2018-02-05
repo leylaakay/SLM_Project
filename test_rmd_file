@@ -18,7 +18,8 @@ What are the observational variables in your data?
 Summary of data:
 
 ```{r setup, eval=TRUE}
-code for summary here
+%code for summary here
+skim(.moviedata, ...)
 ```
 
 \item A couple of graphs (might be interesting to do PCA/cluster data)
