@@ -1,3 +1,8 @@
+---
+title: "Data Overview: Movies!"
+author: "Maryann Zhao and Leyla Akay"
+output: word_document
+---
 
-# introduction: 
-We have been interested in whether we can predict a 
+## Introduction: 
+We have been interested
