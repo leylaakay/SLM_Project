@@ -88,6 +88,8 @@ ggplot(pop.budget, aes(x=fitted(pop.budget), y=resid(pop.budget))) + geom_point(
 
 ```
 
+For ridge regression:
 
-
-
+fit <-lm.ridge(log(movies.new$popularity) ~ log(movies.new$revenue) + movies.new$vote_average + log(movies.new$budget) + movies.new$vote_count + movies.new$oh7 + movies.new$adv + movies.new$action + movies.new$drama + movies.new$lang + log(movies.new$revenue)*log(movies.new$budget), lambda = seq(0, .1, .001))
+summary(fit)
+plot(fit)
